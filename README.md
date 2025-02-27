@@ -22,7 +22,7 @@ We present DetectRL-ZH, a benchmark specifically designed for detecting LLM-gene
 
 ## Statistics of Data
 
-- Training Set: The training set includes data from 3 types of LLMs and 3 domains. Specifically, the data sources are ASAP, CNewSum, and CSL. The generators include GPT-4o, GLM-4-flash, and Qwen-turbo. The training set contains totally 31,200 samples.
+- Training Set: The training set includes data from 3 types of LLMs and 3 domains. Specifically, the data sources are ASAP, CNewSum, and CSL. The generators include GPT-4o, GLM-4-flash, and Qwen-turbo. The training set contains totally 32,400 samples.
 - Test Set: An additional unknown model and domain data are used as the source of raw data for the final test.
 
 | Split | Source    | GPT4o | GLM  | Qwen  | Machine | Human | Total |
@@ -36,9 +36,11 @@ We present DetectRL-ZH, a benchmark specifically designed for detecting LLM-gene
 
 ## Data Download
 
-The training data and development data can be found in the following Google Drive folder link:
+The training data and development data can be found in the following Google Drive folder link or Github link:
 
-https://drive.google.com/drive/folders/1R5KiW7uwQ002dOE2expEYQLbzQ_gMr8j?usp=sharing
+Google Drive link: https://drive.google.com/drive/folders/1R5KiW7uwQ002dOE2expEYQLbzQ_gMr8j?usp=sharing
+
+Github link: https://github.com/NLP2CT/NLPCC2025-Task1/tree/main/data
 
 ##  Data Restriction
 
