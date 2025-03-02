@@ -112,7 +112,7 @@ If you have any questions about this task, please email to nlp2ct.junchao@gmail.
 
 Q: Where can I register for this shared task?
 
-A: The latest registration method is available on the NLPCC 2025 Shared Task official website (http://tcci.ccf.org.cn/conference/2025/cfp.php). Please fill out the Shared Task 1 registration form (Word document) as required and send it to nlp2ct.junchao@gmail.com. If you have any questions, feel free to reach out.
+A: The latest registration method is available on the NLPCC 2025 Shared Task official website (http://tcci.ccf.org.cn/conference/2025/cfpt.php). Please fill out the Shared Task 1 registration form (Word document) (http://tcci.ccf.org.cn/conference/2025/sharedTasks/NLPCC2025.SharedTask1.RegistrationForm.doc) as required and send it to nlp2ct.junchao@gmail.com. If you have any questions, feel free to reach out.
 
 Q: Is it allowed to use additional data?
 
