@@ -113,7 +113,7 @@
 
 问: 在哪里可以注册/报名参加本次共享任务？
 
-答: 最新的注册方式可在 NLPCC 2025 共享任务官网（http://tcci.ccf.org.cn/conference/2025/cfp.php）上找到。请按照要求填写共享任务 1 的注册表（Word 文档），并发送至 nlp2ct.junchao@gmail.com。如有任何疑问，请随时联系。
+答: 最新的注册方式可在 NLPCC 2025 共享任务官网（http://tcci.ccf.org.cn/conference/2025/cfpt.php ）上找到。请按照要求填写共享任务 1 的注册表（Word 文档）(http://tcci.ccf.org.cn/conference/2025/sharedTasks/NLPCC2025.SharedTask1.RegistrationForm.doc )，并发送至 nlp2ct.junchao@gmail.com。如有任何疑问，请随时联系。
 
 问: 是否允许使用额外的数据？
 
