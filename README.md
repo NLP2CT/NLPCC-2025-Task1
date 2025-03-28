@@ -77,6 +77,12 @@ The official evaluation metric for the task is the F1-Score, which effectively m
 
 The test data will be released on 2025/04/11. Participants are required to submit test result files (adding a "label" field based on the released test data). A unified system evaluation will be conducted, and the final scores and rankings of all participants will be announced on 2025/04/20 (along with the evaluation answers, allowing participants to verify their results). After receiving the competition results, participants may proceed with writing their papers, with the submission deadline set for 2025/05/22. The prediction file must be a single JSON file containing all texts. Each entry in the JSON file must include the fields "text" and "label".
 
+Submission Requirements:
+- Participants must submit the required test result files, final training data, and code (including a README.md or instructions for running the code).
+- Submitted materials will be used for backup and review purposes. (We will review the methods and data of the top-ranked teams to ensure reasonableness and fairness.)
+
+Penalties: Teams that violate the rules of the competition will be disqualified.
+
 # Important dates
 
 | Time | Events |
@@ -92,6 +98,7 @@ The test data will be released on 2025/04/11. Participants are required to submi
 | 2025/06/12| conference paper accept/reject notification|
 | 2025/06/25| camera-ready paper submission deadline|
 
+**Time Zone: All deadlines are based on Beijing Time (GMT+8) and refer to 11:59 PM on the specified day.**
 
 # Awards & Results
 
@@ -110,13 +117,67 @@ If you have any questions about this task, please email to nlp2ct.junchao@gmail.
 
 # FAQ
 
-Q: Where can I register for this shared task?
+Q1: Where can I register for this shared task?
 
-A: The latest registration method is available on the NLPCC 2025 Shared Task official website (http://tcci.ccf.org.cn/conference/2025/cfpt.php). Please fill out the Shared Task 1 registration form (Word document) (http://tcci.ccf.org.cn/conference/2025/sharedTasks/NLPCC2025.SharedTask1.RegistrationForm.doc) as required and send it to nlp2ct.junchao@gmail.com. If you have any questions, feel free to reach out.
+A1: The latest registration method is available on the NLPCC 2025 Shared Task official website (http://tcci.ccf.org.cn/conference/2025/cfpt.php). Please fill out the Shared Task 1 registration form (Word document) (http://tcci.ccf.org.cn/conference/2025/sharedTasks/NLPCC2025.SharedTask1.RegistrationForm.doc) as required and send it to nlp2ct.junchao@gmail.com. If you have any questions, feel free to reach out.
 
-Q: Is it allowed to use additional data?
+Q2: Is it allowed to use additional data?
 
-A: Using external data sources is not permitted. However, data augmentation is allowed (see Data Restriction for details).
+A2: Using external data sources is not permitted. However, data augmentation is allowed (see Data Restriction for details).
+
+Q3: There is an inconsistency between the description of "data restrictions" on the task's official GitHub page and the conference's official website:
+- GitHub: Generative large language models (Generative LLMs) cannot be used for paraphrasing; only traditional encoder models or sequence-to-sequence (seq2seq) models are allowed.
+- Conference website: Paraphrasing is limited to open-source models and API-based models. The use of GPT-o1, MoE, or models with parameter sizes exceeding 80B is not allowed.
+
+A3: Please refer to the GitHub guidelines for the correct rules:
+- Only traditional encoder models or sequence-to-sequence (seq2seq) models are allowed for paraphrasing.
+- Generative decoder models are strictly prohibited, even if the model has fewer than 80 billion parameters (e.g., glm-4-9B).
+- This restriction ensures fairness, as our test set already includes data from decoder models, and introducing additional generative models could result in unfair advantages.
+
+Q4: Does the restriction on “paraphrasing” mean that large language models cannot be used throughout the entire task process?
+
+A4:
+- Definition of Paraphrasing: Making semantically equivalent modifications to text, such as polishing, synonym replacement, or adjusting expression style.
+- Restriction on Paraphrasing: During data augmentation (e.g., paraphrasing), only encoder-based or seq2seq models can be used. Generative LLMs are strictly prohibited, including for polishing or revising text.
+- Other Phases of the Task: Outside of data augmentation, LLMs can be used, including fine-tuning LLMs directly to complete the task.
+
+Q5: If paraphrasing does not involve LLMs, is it permissible to use fine-tuned LLMs as detectors (e.g., qwen2.5-3B)?
+
+A5: LLMs are prohibited during data augmentation only. For detector construction phases, LLMs are allowed. This includes:
+- Fine-tuning LLMs directly to complete the task.
+- Using open-source models to extract internal features for assistance in detection.
+
+Q6: Can we use encoder-only models for fine-tuning?
+
+A6: Yes, you can use any method to build your detector, including:
+- Fine-tuning encoder models or decoder models as classifiers.
+- Using statistical methods to extract classification features.
+- Restrictions apply only to data augmentation, where generative LLMs cannot be used for text paraphrasing.
+
+Q7: The development set can only be used for "tuning," not "training." What is the difference?
+
+A7:
+- Training: Use the training set (train.json) to adjust model parameters (e.g., neural network weights) or extract classification features and thresholds.
+- Tuning: Use the development set (dev.json) only after training to adjust hyperparameters (e.g., learning rate), classification features, or model architecture. Evaluate detector performance and optimize the method to improve performance on unseen data.
+- Example: Suppose you fine-tune an encoder model on the training set but find poor performance on the development set. This may indicate overfitting, and you should consider additional measures (e.g., data augmentation or extracting more diverse features) to improve generalization.
+
+Q8: When should the competition code be submitted, and where?
+
+A8: Deadline: By April 20, 2025 (11:59 PM Beijing Time).
+- Submission Content: Final test result file, training data, and source code (including a simple README.md or instructions for running the code).
+- Where to Submit: Email nlp2ct.junchao@gmail.com.
+- Updates or changes to submission details will be announced on the GitHub official website.
+
+Q9: Do all team members need to register individually? Can someone who has graduated and is now working in a company participate?
+
+A9: Only one registration form is needed per team; no need for individual registrations. Team members who have graduated and are working in a company can participate.
+
+Q10: After the test data is released, do we only need to submit the final test result *.json file?
+
+A10: Files to Submit:
+    - Final test result file (*.json).
+    - Detector training data and source code (for method verification).
+If additional files are required, the organizers will notify participants via email and the official GitHub website.
 
 # References
 
