@@ -75,7 +75,7 @@ The official evaluation metric for the task is the F1-Score, which effectively m
 
 # Submission & Evaluation
 
-The test data will be released on 2025/04/11. Participants are required to submit test result files (adding a "label" field based on the released test data). A unified system evaluation will be conducted, and the final scores and rankings of all participants will be announced on 2025/04/20 (along with the evaluation answers, allowing participants to verify their results). After receiving the competition results, participants may proceed with writing their papers, with the submission deadline set for 2025/05/22. The prediction file must be a single JSON file containing all texts. Each entry in the JSON file must include the fields "text" and "label".
+The test data will be released on 2025/04/11. Participants are required to submit test result files, with the deadline on 2025/04/20 (adding a "label" field based on the released test data). A unified system evaluation will be conducted, and the final scores and rankings of all participants will be announced on 2025/04/30 (along with the evaluation answers, allowing participants to verify their results). After receiving the competition results, participants may proceed with writing their papers, with the submission deadline set for 2025/05/22. The prediction file must be a single JSON file containing all texts. Each entry in the JSON file must include the fields "text" and "label".
 
 Submission Requirements:
 - Participants must submit the required test result files, final training data, and code (including a README.md or instructions for running the code).
