@@ -43,6 +43,10 @@
 
 - Github link: https://github.com/NLP2CT/NLPCC2025-Task1/tree/main/data
 
+测试数据可以在以下 Github 文件夹链接中找到：
+
+- Github link: https://github.com/NLP2CT/NLPCC2025-Task1/tree/main/data/test.json
+
 ##  数据限制
 
 - 请注意，所提供的开发集仅限用于模型调优，不允许用于模型训练。
