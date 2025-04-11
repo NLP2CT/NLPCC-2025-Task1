@@ -13,6 +13,7 @@ Participants are tasked with designing and building detection algorithms using t
 # Latest News
 
 - [ 2025.02.27 ] We have released detailed task guidelines and training data—start building a reliable detector now!
+- [ 2025.04.11 ] 📢 The test data for NLPCC-2025 Task 1 will be released before 8:00 PM Beijing Time (UTC+8) on April 11, 2025. Please stay tuned and thank you for your patience!
 
 # Data Description
 
