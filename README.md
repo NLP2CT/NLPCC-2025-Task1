@@ -12,8 +12,9 @@ Participants are tasked with designing and building detection algorithms using t
 
 # Latest News
 
+- [ 2025.04.30 ] 📢 Test results have been released. Thank you to all the teams for their support and participation!
+- [ 2025.04.11 ] The test data for NLPCC-2025 Task 1 has been released!
 - [ 2025.02.27 ] We have released detailed task guidelines and training data—start building a reliable detector now!
-- [ 2025.04.11 ] 📢 The test data for NLPCC-2025 Task 1 has been released!
 
 PS: We have sent notification emails regarding the release of the test data to all participating teams. If you have registered but did not receive the email, please contact us via email ASAP to avoid missing important registion information.
 
