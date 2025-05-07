@@ -180,7 +180,7 @@ We will soon release the related test.json file, complete with labels and their 
 | GenAuditor                           | 0.9440 | 0.8673  | 0.7658          | **0.8590**        | - | - |
 | Sprinting                            | 0.8917 | 0.7930  | 0.8483          | **0.8443**        | - | - |
 | ClassiFire                           | 0.8922 | 0.8483  | 0.7858          | **0.8421**        | Yuqi Zhu (Team Leader); Yuchen Wang; Jinglan Gong; Haoyu Wu; Xiaozhe Ji | Beijing Normal University; Beihang University; University of Science and Technology of China; Renmin University of China; Xiamen University |
-| HC                                   | 0.9374 | 0.8219  | 0.7629          | **0.8407**        | - | - |
+| HC                                   | 0.9374 | 0.8219  | 0.7629          | **0.8407**        | Qi Huang (Team Leader); Yihang Chen; Wenliang Chen; Zhanwei Huang | Jiangxi Normal University |
 | YNU-HPCC                             | 0.9940 | 0.8341  | 0.6517          | **0.8266**        | - | - |
 | ZZUNLP                               | 0.9997 | 0.9010  | 0.4464          | **0.7824**        | - | - |
 | MSFLab                               | 0.7357 | 0.7361  | 0.8706          | **0.7808**        | - | - |
