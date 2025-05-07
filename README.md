@@ -165,8 +165,6 @@ nlp2ct.junchao@gmail.com
 
 # Results
 
-We will soon release the related test.json file, complete with labels and their distribution soon.
-
 | System Name(ID)                      | Normal | Attacks | Varying Lengths | **Avg. F1 Score** | **Team Members** | **Team Organization** |
 |--------------------------------------|--------|---------|-----------------|-------------------|------------------|------------------|
 | LLM-Generated-System                 | 1.0000 | 0.9943  | 0.9770          | **0.9904**        | Yanan Cao (Team Leader); Zhuoshang Wang; Guoyu Zhao; Xiaowei Zhu; Hao Li; Yubing Ren | ASCII Lab, Institute of Information Engineering, Chinese Academy of Sciences |
