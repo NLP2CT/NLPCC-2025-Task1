@@ -49,7 +49,7 @@ The distribution of the test data is completely out of the training data's domai
 
 - **Varying Lengths**  
   This scenario evaluates the detector's ability to handle texts of different lengths and its robustness across them. It consists of 2000 pairs of LLM-generated texts and human-written texts, with sample IDs ranging from 7001 to 11000.  
-  For 500 pairs of textsFor the last 500 pairs of texts in the **Normal** scenario, we performed semantic segmentation to ensure coherence and extracted text lengths closest to 64, 128, 256, and 512 characters. The sample IDs for these lengths are as follows:  
+ For the last 500 pairs of texts in the **Normal** scenario, we performed semantic segmentation to ensure coherence and extracted text lengths closest to 64, 128, 256, and 512 characters. The sample IDs for these lengths are as follows:  
   - 64 characters: sample IDs 7001–8000  
   - 128 characters: sample IDs 8001–9000  
   - 256 characters: sample IDs 9001–10000  
