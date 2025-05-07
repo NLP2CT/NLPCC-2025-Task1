@@ -166,8 +166,6 @@
 
 # 测试成绩
 
-我们将在随后发布相关的 test.json 文件，其中包含标签及其分布信息。
-
 | System Name(ID)                      | Normal | Attacks | Varying Lengths | **Avg. F1 Score** | **Team Members** | **Team Organization** |
 |--------------------------------------|--------|---------|-----------------|-------------------|------------------|------------------|
 | LLM-Generated-System                 | 1.0000 | 0.9943  | 0.9770          | **0.9904**        | Yanan Cao (Team Leader); Zhuoshang Wang; Guoyu Zhao; Xiaowei Zhu; Hao Li; Yubing Ren | ASCII Lab, Institute of Information Engineering, Chinese Academy of Sciences |
