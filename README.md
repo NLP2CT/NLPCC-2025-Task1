@@ -172,11 +172,11 @@ nlp2ct.junchao@gmail.com
 | POLYNLPCC                            | 0.9662 | 0.9100  | 0.9720          | **0.9494**        | - | - |
 | AI Text Trackers                     | 0.9730 | 0.9217  | 0.9389          | **0.9445**        | - | - |
 | BlueSpace                            | 0.9865 | 0.9533  | 0.8899          | **0.9432**        | - | - |
-| MCI^2_LLMGTD                         | 0.9900 | 0.8429  | 0.9110          | **0.9146**        | - | - |
+| MCI^2_LLMGTD                         | 0.9900 | 0.8429  | 0.9110          | **0.9146**        | Huanghao Feng (Team Leader); Houji Jin; Ganyu Gui; Wei Liu; Jian Wang | Meta Computation for Intelligent Instrument Lab (MCI^2), Computer Science and Engineering Dept., Suzhou University of Technology; University of Southern California |
 | ZZU-NLP                              | 0.9982 | 0.8389  | 0.8588          | **0.8987**        | - | - |
 | DS                                   | 0.9484 | 0.7572  | 0.8727          | **0.8594**        | - | - |
 | GenAuditor                           | 0.9440 | 0.8673  | 0.7658          | **0.8590**        | - | - |
-| Sprinting                            | 0.8917 | 0.7930  | 0.8483          | **0.8443**        | - | - |
+| Sprinting                            | 0.8917 | 0.7930  | 0.8483          | **0.8443**        | Fu Rao | Beijing Institute of Technology |
 | ClassiFire                           | 0.8922 | 0.8483  | 0.7858          | **0.8421**        | Yuqi Zhu (Team Leader); Yuchen Wang; Jinglan Gong; Haoyu Wu; Xiaozhe Ji | Beijing Normal University; Beihang University; University of Science and Technology of China; Renmin University of China; Xiamen University |
 | HC                                   | 0.9374 | 0.8219  | 0.7629          | **0.8407**        | Qi Huang (Team Leader); Yihang Chen; Wenliang Chen; Zhanwei Huang | Jiangxi Normal University |
 | YNU-HPCC                             | 0.9940 | 0.8341  | 0.6517          | **0.8266**        | - | - |
