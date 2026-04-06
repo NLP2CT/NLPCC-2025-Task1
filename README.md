@@ -272,6 +272,35 @@ If additional files are required, the organizers will notify participants via em
 
 # References
 
+Below are the relevant references for this shared task. If your work utilizes our datasets or this task contributes to your research, please consider citing the following papers:
+
+```
+@inproceedings{wu2025overview,
+  title={Overview of the NLPCC 2025 Shared Task 1: LLM-Generated Text Detection},
+  author={Wu, Junchao and Zhan, Runzhe and Wang, Qianli and Yuan, Yulin and Chao, Lidia S and Wong, Derek F},
+  booktitle={CCF International Conference on Natural Language Processing and Chinese Computing},
+  pages={263--274},
+  year={2025},
+  organization={Springer}
+}
+
+@article{wu2024detectrl,
+  title={DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios},
+  author={Wu, Junchao and Zhan, Runzhe and Wong, Derek F and Yang, Shu and Yang, Xinyi and Yuan, Yulin and Chao, Lidia S},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={100369--100401},
+  year={2024}
+}
+```
+
+Below are the papers on the winning team solutions for this shared task. We hope they will be helpful to research in the community.
+
+- Wang, Z., Ren, Y., Zhao, G., Zhu, X., Li, H., & Cao, Y. (2025, August). EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection Through Diverse Model Ensembles. In CCF International Conference on Natural Language Processing and Chinese Computing (pp. 284-295). Singapore: Springer Nature Singapore.
+- Wang, S., Fang, R., Li, M., He, Z., & Song, S. (2025, August). When less is more: Minimal prompts with lora for llm text detection. In CCF International Conference on Natural Language Processing and Chinese Computing (pp. 275-283). Singapore: Springer Nature Singapore.
+- Wang, Y., Chen, Z., Yu, X., & Yang, S. (2025, August). LOW-COST-AI-DETECTOR: An Efficient and Cost-Effective LLM-Generated Chinese Text Detection Model for NLPCC2025 Shared-Task 1. In CCF International Conference on Natural Language Processing and Chinese Computing (pp. 296-303). Singapore: Springer Nature Singapore.
+
+
 If you're new to this field, We believe the following papers can help you quickly get familiar with it (continuously updated):
 
 - Wu, J., Yang, S., Zhan, R., Yuan, Y., Chao, L. S., & Wong, D. F. (2025). A survey on LLM-generated text detection: Necessity, methods, and future directions. Computational Linguistics, 1-66.
